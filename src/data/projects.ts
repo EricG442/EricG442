@@ -64,10 +64,10 @@ export const projects: Project[] = [
                     "Separated customer-facing pages from internal admin tools and interfaces"
                 ],
                 visuals: [
-                    "/images/storefront/InventoryPage.png",
-                    "/images/storefront/EmptyStateForm.png",
-                    "/images/storefront/FormDataFromDB.png",
-                    "/images/storefront/FigmaWireframe.png"
+                    "EricG442/images/storefront/InventoryPage.png",
+                    "EricG442/images/storefront/EmptyStateForm.png",
+                    "EricG442/images/storefront/FormDataFromDB.png",
+                    "EricG442/images/storefront/FigmaWireframe.png"
                 ]
             },
             engineering: {
@@ -137,10 +137,10 @@ export const projects: Project[] = [
                     "Focused on a modern sports-media aesthetic"
                 ],
                 visuals: [
-                    "/images/sports-blog/ajr6kv0_3.png",
-                    "/images/sports-blog/ajr6kv0_2.png",
-                    "/images/sports-blog/ajr6k_v0_3_0.png",
-                    "/images/sports-blog/ajr6kDashboard.png"
+                    "EricG442/images/sports-blog/ajr6kv0_3.png",
+                    "EricG442/images/sports-blog/ajr6kv0_2.png",
+                    "EricG442/images/sports-blog/ajr6k_v0_3_0.png",
+                    "EricG442/images/sports-blog/ajr6kDashboard.png"
                 ]
             },
             engineering: {
