@@ -5,9 +5,6 @@ export default function Hero() {
             <p className="text-lg mt-4">I design and build web applications from concept to deployment and beyond. Combining product thinking, UI/UX design, and modern full-stack development practices.</p>
             <div className="flex space-y-4 mt-6">
                 <button className="bg-white text-blue-500 hover:bg-gray-200 font-bold py-2 px-4 rounded m-auto">
-                    View My Work
-                </button>
-                <button className="bg-white text-blue-500 hover:bg-gray-200 font-bold py-2 px-4 rounded m-auto">
                     Resume
                 </button>
             </div>
