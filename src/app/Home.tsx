@@ -1,8 +1,11 @@
+import Hero from "@/components/Hero";
+import FeaturedWorks from "@/components/FeaturedWorks";
+
 export default function Home() {
     return (
         <div>
-            <h1>Welcome to My Portfolio</h1>
-            <p>I'm a software developer passionate about creating meaningful digital experiences.</p>
+            <Hero />
+            <FeaturedWorks />
         </div>
     );
 }
