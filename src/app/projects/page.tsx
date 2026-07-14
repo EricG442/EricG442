@@ -14,11 +14,13 @@ export default function ProjectsPage() {
             <section className="space-y-6">
                 <h1>{project.title}</h1>
                 <p>{project.tagline}</p>
-                {project.caseStudy?.engineering?.stack?.map((tech: string) => (
-                    <span key={tech} className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 mb-2 px-2.5 py-0.5 rounded">
-                        {tech}
-                    </span>
-                ))}
+                <div className="flex flex-wrap px-4">
+                    {project.caseStudy?.engineering?.stack?.map((tech: string) => (
+                        <span key={tech} className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 mb-2 px-2.5 py-0.5 rounded">
+                            {tech}
+                        </span>
+                    ))}
+                </div>
                 {project.caseStudy?.design?.visuals?.[2] && (
                     <img
                         src={project.caseStudy.design.visuals[2]}
