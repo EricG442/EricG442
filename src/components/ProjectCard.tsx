@@ -45,7 +45,7 @@ export default function ProjectCard({ project }: { project: any }) {
                             View GitHub
                         </a>
                     )}
-                    <a className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 inline-block" href={`EricG442/projects/${project.slug}`}>
+                    <a className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 inline-block" href={`projects/${project.slug}`}>
                         View Project
                     </a>
                 </div>
