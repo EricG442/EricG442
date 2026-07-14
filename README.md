@@ -21,3 +21,5 @@ A sports-focused content expirence designed around articles, teams and fan engag
 - Figma
 
 ## **Links**
+Portfolio: https://ericg-portfolio.vercel.app
+LinkedIn: https://www.linkedin.com/in/ericg206/
