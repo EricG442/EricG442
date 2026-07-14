@@ -38,7 +38,7 @@ export const projects: Project[] = [
         description: "I designed and built a custom e-commerce platform for a small handmade goods business, creating both a customer-facing storefront and an internal product management tools.",
         links: {
             demo: "",
-            github: "https://github.com/ericg442/hearts-and-crafts"
+            github: "https://github.com/ericg442/greenlake-arts-and-crafts"
         },
         caseStudy: {
             problem: {

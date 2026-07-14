@@ -7,7 +7,7 @@ import {
 
 export default function ProjectCard({ project }: { project: any }) {
     return (
-        <Card>
+        <Card className="my-auto">
             <CardHeader>
                 <CardTitle><h3>{project.title}</h3></CardTitle>
             </CardHeader>
@@ -17,7 +17,7 @@ export default function ProjectCard({ project }: { project: any }) {
                     alt={project.title}
                 />
                 <p>{project.description}</p>
-                <div>
+                <div className="flex flex-wrap gap-2 m-auto">
                     {project.caseStudy.engineering.stack.map((tech: string) => (
                         <span key={tech} className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 mb-2 px-2.5 py-0.5 rounded">
                             {tech}
