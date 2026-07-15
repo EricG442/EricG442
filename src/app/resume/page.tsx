@@ -10,6 +10,8 @@ export default function Resume() {
                     <div className="mt-4 space-y-1 text-sm text-muted-foreground">
                         <p>eric.gish.dev@outlook.com</p>
                         <p>https://github.com/EricG442</p>
+                        <p>https://www.linkedin.com/in/ericg206/</p>
+                        <p>https://ericg-portfolio.vercel.app</p>
                     </div>
                 </div>
                 <a
